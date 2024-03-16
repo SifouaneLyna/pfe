@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  background: #f5f5f5;
+  font-family: poppins;
+  margin: 0;
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(57, 54, 54);
+}
+
+h4 {
+  font-weight: 600;
+  color: rgb(57, 54, 54);
+  opacity: 97%;
+}
+
+.custom-container {
+  max-width: 1200px;
+  scale: 85%;
+}
+
+.box-area {
+  width: 1500px;
+}
+
+.right-box {
+  padding: 25px 50px 15px 50px;
+}
+
+.left-box {
+  padding: 20px 35px 20px 35px;
+}
+
+.btn-primary {
+  background-color: rgb(198, 115, 151);
+  border-color: rgb(198, 115, 151);
+}
+
+.custom-sidebar-btn {
+  background-color: rgb(198, 115, 151) !important;
+  border-color: rgb(198, 115, 151) !important;
+  border-radius: 12px !important;
+  margin-bottom: 8px !important;
+}
+
+.custom-sidebar-btn:hover {
+  background-color: rgb(201, 79, 132) !important;
+  border-color: rgb(201, 79, 132) !important;
+}
+
+.tcustom-sidebar-btn {
+  background: rgb(232, 201, 215) !important;
+  border-color: rgb(232, 201, 215) !important;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: rgb(201, 79, 132) !important;
+  font-size: 9px;
+}
+
+.tcustom-sidebar-btn:hover {
+  background-color: rgb(215, 156, 181) !important;
+  border-color: rgb(215, 156, 181) !important;
+  color: rgb(192, 22, 96) !important;
+}
+.tcustom-sidebar-btn:active {
+  background-color: rgb(215, 156, 181) !important;
+  border-color: rgb(215, 156, 181) !important;
+  color: rgb(192, 22, 96) !important;
+}
+
+.nav-link-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-link {
+  color: rgb(201, 79, 132);
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+
+/* 
+color of td in tables gestion admin supermarche */
+.custom-text-color {
+  color: rgb(57, 54, 54) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-container {
+    scale: 95%;
+  }
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    overflow: hidden;
+    padding: 10px;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}
+
+label {
+  color: rgb(57, 54, 54) !important;
+}
+
+@media (min-width: 992px) {
+  .table {
+    table-layout: fixed;
+  }
+  td,
+  th {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
